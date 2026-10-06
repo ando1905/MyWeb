@@ -2,7 +2,7 @@ h1{
     text-align: center;
     color: rgb(255, 254, 254);
     font-family: Arial;
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color:rgba(186, 186, 186, 0.685);
     padding: 20px;
     border-radius: 10px;
 }
@@ -16,6 +16,7 @@ header{
 body{
     font-family: Arial;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.685);
 }
 footer{
     background-color: rgba(186, 186, 186, 0.685);
