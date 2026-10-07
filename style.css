@@ -6,10 +6,80 @@ h1{
     padding: 20px;
     border-radius: 10px;
 }
-nav{
+#Home{
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-family: Arial;
+    background-color:rgba(0, 0, 0, 0.685);
+    padding: 10px;
+    border-radius: 10px;
+}
+#Home:hover{
+    color: rgb(255, 254, 254);
+    background-color:rgba(186, 186, 186, 0.685);
+}
+nav img {
+   width: 10%;
+   height: 10%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.flex img {
+    width: 200px;
+    height: 150px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 30% 20%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    row-gap: 10px;
+}
+.grid img {
+    width: 200px;
+    height: auto;
+}
+nav {
     background-color: rgba(186, 186, 186, 0.685);
     text-align: center;
     padding: 10px;
+}
+nav #Home {
+    width: 8%;
+    border-radius: 10px;
+}
+nav a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 5, 5, 0.685);
+}
+a:active {
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 5, 5, 0.685);
+}
+p a{
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 5, 5, 0.685);
+    text-decoration: none;
+
+}
+p a:hover {
+    color: rgb(246, 0, 0);
+    background-color: rgba(251, 248, 248, 0.685);
+}
+p a:active {
+    color: rgb(246, 0, 0);
+    background-color: rgba(251, 248, 248, 0.685);
 }
 main{
      background-color: rgba(186, 186, 186, 0.685);
@@ -33,11 +103,11 @@ h2{
     font-family: Arial;
 }
 li{
-    display: inline-block;
     text-align: center;
     width: 250px;
     background-color: rgba(5, 5, 5, 0.685);
     color: rgba(255, 255, 255, 0.685);
+    list-style-type: none;
 }
 p {
     text-align: center; 
