@@ -108,6 +108,14 @@ li{
     background-color: rgba(5, 5, 5, 0.685);
     color: rgba(255, 255, 255, 0.685);
     list-style-type: none;
+    border: 10px solid rgba(186, 186, 186, 0.685);
+    padding: 10px;
+    margin: 10px;
+}
+li:nth-child(6) {
+    border: 10px solid rgba(41, 10, 244, 0.685);
+    padding: 10px;
+    margin: 10px;
 }
 p {
     text-align: center; 
@@ -118,4 +126,60 @@ img {
     margin: 0 auto;
     width: 350px;
     height: 300px;
+}
+li img {
+   opacity: 0.1;
+   border: 10px solid rgba(186, 186, 186, 0.685);
+   padding: 5px;
+   border-radius: 10px;
+   background-color: rgba(5, 5, 5, 0.685);
+    
+}
+li:nth-child(6) img {
+    border: 10px solid rgba(41, 10, 244, 0.685);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(5, 5, 5, 0.685);
+}
+li:hover img {
+    opacity: 1;
+}
+.cat {
+    display:inline-block;
+    position: relative;
+    margin: 20px ;
+    width: 350px;
+    height: 300px;
+    border: 10px solid rgba(186, 186, 186, 0.685);
+    padding: 5px ;
+    margin: 50px ;
+    border-radius: 10px;
+}
+.rock {
+    display:block;
+    margin: 20px ;
+    width: 350px;
+    height: 300px;
+    border: 10px solid rgba(11, 11, 11, 0.685);
+    padding: 5px ;
+    margin: 50px ;
+    border-radius: 10px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+.home-icon {
+  width: 100px;
+  height: 50px;
+ background-color: rgba(186, 186, 186, 0.685);
+ border: 10px solid rgba(5, 5, 5, 0.685);
+  border-radius: 10px;
+  padding: 5px;
 }
