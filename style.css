@@ -141,7 +141,7 @@ li:nth-child(6) img {
     border-radius: 10px;
     background-color: rgba(5, 5, 5, 0.685);
 }
-li:hover img {
+li img:hover {
     opacity: 1;
 }
 .cat {
@@ -156,14 +156,14 @@ li:hover img {
     border-radius: 10px;
 }
 .rock {
-    display:block;
-    margin: 20px ;
-    width: 350px;
-    height: 300px;
+    display: block;
+    width: 690px;
+    height: 600px;
     border: 10px solid rgba(11, 11, 11, 0.685);
     padding: 5px ;
-    margin: 50px ;
     border-radius: 10px;
+   
+  
 }
 
 .skip-link {
@@ -182,4 +182,30 @@ li:hover img {
  border: 10px solid rgba(5, 5, 5, 0.685);
   border-radius: 10px;
   padding: 5px;
+}
+#displayedImage {
+width: 500px;
+height: 500px;
+background-image: url('');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border: 10px solid rgba(186, 186, 186, 0.685);
+padding: 5px;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(5, 5, 5, 0.685);
+color: rgb(255, 255, 255);
+text-align: center;
+}
+.text {
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-family: Arial;
+   background-color: rgba(5, 5, 5, 0.685);
+  border: 10px solid rgba(186, 186, 186, 0.685);
+padding: 5px;
+border-radius: 10px;
+
 }
